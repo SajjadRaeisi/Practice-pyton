@@ -1,0 +1,13 @@
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 2023
+}
+
+x = car.items()
+
+print(x) #before the change
+
+car["color"] = "blue"
+
+print(x) #after the change
